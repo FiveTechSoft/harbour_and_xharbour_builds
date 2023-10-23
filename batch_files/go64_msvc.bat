@@ -14,4 +14,4 @@ SET HB_STATIC_CURL=yes
 SET HB_BUILD_DYN=no
 SET HB_BUILD_CONTRIB_DYN=no
 
-win-make.exe clean install
+win-make clean install
