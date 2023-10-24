@@ -1,10 +1,6 @@
 @ ECHO OFF
 
-CALL bcc32 /paths
-
-SET PATH=%BCC%\bin
-
-REM SET PATH=c:\bcc7\bin
+SET PATH=c:\bcc7\bin
 
 SET HB_INSTALL_PREFIX=%cd%\harbour_bcc32
 
