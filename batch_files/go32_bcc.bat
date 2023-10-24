@@ -1,18 +1,24 @@
-set path=c:\bcc7\bin
-set HB_COMPILER=bcc
-set HB_BUILD_MODE=c
-set HB_USER_PRGFLAGS=-l-
-set HB_USER_CFLAGS=-w-8080
-set HB_BUILD_CONTRIBS
+@ ECHO OFF
 
-rem set HB_BUILD_DEBUG=yes
-rem set HB_TR_LEVEL=debug
-rem set HB_USER_CFLAGS=-DHB_TR_LEVEL_DEBUG
+CALL bcc32 /paths
 
-set HB_WITH_OPENSSL=c:\OpenSSL-Win32\include
-set HB_WITH_CURL=c:\curl32\include     
-set HB_STATIC_CURL=yes
-set HB_WITH_LIBHARU
-set HB_BUILD_DYN=no
-set HB_BUILD_CONTRIB_DYN=no
-win-make.exe
+SET PATH=%BCC%\bin
+
+REM SET PATH=c:\bcc7\bin
+
+SET HB_INSTALL_PREFIX=%cd%\harbour_bcc32
+
+SET HB_USER_CFLAGS=-w!-
+SET HB_USER_LDFLAGS=-ap
+
+SET HB_WITH_CURL=e:\xhbsvn\curl\include
+SET HB_STATIC_CURL=yes
+
+SET HB_WITH_OPENSSL=e:\xhbsvn\openssl-win32\include
+
+SET HB_BUILD_DYN=no
+SET HB_BUILD_CONTRIB_DYN=no
+
+IF EXIST lib\3rd\win\bcc REN lib\3rd\win\bcc bccx
+
+win-make clean install
