@@ -16,3 +16,5 @@ SET HB_BUILD_CONTRIB_DYN=no
 IF EXIST lib\3rd\win\bcc REN lib\3rd\win\bcc bccx
 
 win-make clean
+
+IF EXIST lib\3rd\win\bccx REN lib\3rd\win\bcc bcc
