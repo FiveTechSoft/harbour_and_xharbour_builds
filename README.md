@@ -9,6 +9,7 @@ Harbour latest binaries:
   * msvc 32 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_msvc32_20231102.zip
   * msvc 64 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_msvc64_20231102.zip
   * mingw 32 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_mingw32_20231102.zip
+  * mingw 64 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_mingw64_20231102.zip
 
 xHarbour official repo:
 
