@@ -1,27 +1,24 @@
-set HB_COMPILER=bcc64
-set bcc=bcc7164
-set path=c:\%bcc%\bin
-set HB_USER_CFLAGS=-Ic:\%bcc%\INCLUDE\windows\crtl -Ic:\%bcc%\INCLUDE\windows\sdk -Lc:\%bcc%\LIB
-set HB_USER_LDFLAGS=-Lc:\%bcc%\LIB;c:\%bcc%\LIB\psdk
-set HB_BUILD_MODE=c
-set HB_USER_PRGFLAGS=-l-
-set HB_USER_CFLAGS=-UHB_HAS_PCRE
-set HB_USER_LDFLAGS=-Lc:\bcc7164\LIB;c:\bcc7164\LIB\psdk
-set HB_USER_RESFLAGS=-Ic:\bcc7164\INCLUDE\windows\sdk
-set HB_BUILD_CONTRIBS
-set HB_HAS_PCRE
-set HB_WITH_LIBHARU
+@ ECHO OFF
 
-rem set HB_BUILD_DEBUG=yes
-rem set HB_TR_LEVEL=debug
-rem set HB_USER_CFLAGS=-DHB_TR_LEVEL_DEBUG
+SET BCC=c:\bcc7664
 
-set HB_WITH_OPENSSL=c:\OpenSSL-Win64\include
-set HB_WITH_CURL=c:\curl64\include
-set HB_OPENSSL_STATIC=yes      
-set HB_STATIC_OPENSSL=yes  
-set HB_STATIC_CURL=yes
-set HB_WITH_LIBHARU
-set HB_BUILD_DYN=no
-set HB_BUILD_CONTRIB_DYN=no
-win-make.exe
+SET HB_COMPILER=bcc64
+
+SET PATH=%BCC%\bin;%PATH%
+
+SET HB_USER_LDFLAGS=-ap -j%BCC%\lib;%BCC%\lib\psdk
+SET HB_USER_RESFLAGS=-i%BCC%\include\windows\sdk
+
+SET HB_WITH_CURL=e:\xhbsvn\curl-win64\include
+SET HB_STATIC_CURL=yes
+
+SET HB_WITH_OPENSSL=e:\xhbsvn\openssl\x64\include
+
+SET HB_BUILD_DYN=no
+SET HB_BUILD_CONTRIB_DYN=no
+
+win-make clean HB_USER_CFLAGS=-w
+
+mkexp %cd%\lib\win\bcc64\libcurl-x64.a %HB_WITH_CURL%\..\bin\libcurl-x64.dll
+
+PAUSE
