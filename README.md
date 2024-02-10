@@ -3,7 +3,7 @@ Harbour official repo:
 https://github.com/harbour/core
 
 Harbour latest binaries: 
-* Windows msvc 32 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_msvc2022_32_20231102.zip
+* Windows msvc 32 bits: http://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_msvc2022_32_20231102.zip
 * Windows msvc 64 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_msvc2022_64_20231102.zip
 * Windows bcc 32 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_bcc770_32_20231117.zip
 * Windows bcc 64 bits: https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_bcc770_64_20231117.zip
@@ -17,4 +17,4 @@ https://github.com/xHarbour-org/xharbour
 
 xHarbour latest binaries:
 
-https://xharbour.org/index.asp?page=download/windows/binaries_win
+http://xharbour.org/index.asp?page=download/windows/binaries_win
