@@ -17,4 +17,4 @@ https://github.com/xHarbour-org/xharbour
 
 xHarbour latest binaries:
 
-http://xharbour.org/index.asp?page=download/windows/binaries_win
+https://xharbour.org/index.asp?page=download/windows/binaries_win
