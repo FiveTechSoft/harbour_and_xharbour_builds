@@ -1,5 +1,5 @@
 <b>Harbour official repo:</b>
-* https://github.com/harbour/core
+* <a href = "https://github.com/harbour/core">Harbour official repo</a>
 
 <b>Harbour latest binaries:</b>
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_msvc2022_32_20240210.zip">Windows msvc 32 bit</a>
