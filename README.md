@@ -11,7 +11,7 @@
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/harbour_osx_20231108.zip">Apple OSX 64 bit</a>
 
 <b>xHarbour official repo:</b>
-* https://github.com/xHarbour-org/xharbour
+* <a href = "https://github.com/xHarbour-org/xharbour">xHarbour official repo</a>
 
 <b>xHarbour latest binaries:</b>
-* http://xharbour.org/index.asp?page=download/windows/binaries_win
+* <a href = "http://xharbour.org/index.asp?page=download/windows/binaries_win">xHarbour latest binaries</a>
