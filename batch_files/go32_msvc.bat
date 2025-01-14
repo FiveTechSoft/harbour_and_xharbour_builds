@@ -12,4 +12,4 @@ SET HB_WITH_OPENSSL=c:\OpenSSL-Win32\include
 SET HB_BUILD_DYN=no
 SET HB_BUILD_CONTRIB_DYN=no
 
-win-make clean
+win-make
