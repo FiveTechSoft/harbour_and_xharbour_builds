@@ -1,6 +1,6 @@
 @ ECHO OFF
 
-SET PATH=c:\bcc7\bin
+SET PATH=c:\bcc77\bin
 
 SET HB_USER_LDFLAGS=-ap
 
