@@ -23,4 +23,4 @@
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_bcc77064.zip">Windows bcc 64 bit</a>
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_mingw850.zip">Windows mingw 32 bit</a>
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_mingw85064.zip">Windows mingw 64 bit</a>
-* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_xcc.zip">Windows xcc</a>
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_xcc.zip">Windows xcc 32 bit</a>
