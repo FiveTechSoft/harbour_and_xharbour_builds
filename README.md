@@ -25,6 +25,16 @@
 
 <b>xHarbour latest binaries:</b>
 <!--* <a href = "http://xharbour.org/index.asp?page=download/windows/binaries_win">xHarbour latest binaries</a>-->
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10292_msvc2022.zip">Windows msvc 32 bit</a>
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10292_msvc202264.zip">Windows msvc 64 bit</a>
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10292_bcc770.zip">Windows bcc 32 bit</a>
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10292_bcc770c.zip">Windows bcc CLANG 32 bit</a>
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10292_bcc77064.zip">Windows bcc 64 bit</a>
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10292_mingw1510.zip">Windows mingw 32 bit</a>
+* <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10292_mingw151064.zip">Windows mingw 64 bit</a>
+
+<b>xHarbour old binaries:</b>
+<!--* <a href = "http://xharbour.org/index.asp?page=download/windows/binaries_win">xHarbour latest binaries</a>-->
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_msvc2022.zip">Windows msvc 32 bit</a>
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_msvc202264.zip">Windows msvc 64 bit</a>
 * <a href = "https://github.com/FiveTechSoft/harbour_and_xharbour_builds/blob/master/xhb10291_bcc770.zip">Windows bcc 32 bit</a>
