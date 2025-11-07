@@ -12,5 +12,5 @@
 
 <b>xHarbour official repo:</b>
 * <a href = "https://github.com/xHarbour-org/xharbour">xHarbour official repo</a>
-
-* <a href = "http://xharbour.org/index.asp?page=download/windows/binaries_win">xHarbour latest binaries</a>
+* <a href = "https://xharbour.org">xHarbour official website</a>
+* <a href = "https://xharbour.org/index.asp?page=download/windows/binaries_win">xHarbour latest binaries</a>
